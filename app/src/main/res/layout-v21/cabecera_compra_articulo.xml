@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:background="@color/blanco_perfecto"
+    android:elevation="2dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center_vertical"
+            android:background="@drawable/fondo_redondo_naranja"
+            android:paddingBottom="2dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp">
+
+            <com.proconsi.leondecompras.views.TextViewTypeface
+                android:id="@+id/texto_precio_unidad"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/blanco_perfecto"
+                android:text="20.55 €"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <com.proconsi.leondecompras.views.TextViewTypeface
+                android:id="@+id/texto_precio_kilo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="20.0 €/Kg"
+                android:textSize="13dp"
+                android:textColor="@color/blanco_perfecto"
+                android:layout_marginTop="-4dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1" />
+
+        <LinearLayout
+            android:id="@+id/contenedor_seleccionar_unidades"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_marginLeft="5dp"
+            android:gravity="center_vertical">
+
+            <com.proconsi.leondecompras.views.ImageView
+                android:layout_width="match_parent"
+                android:layout_height="10dp"
+                android:src="@drawable/ic_triangle_up"/>
+
+            <com.proconsi.leondecompras.views.TextViewTypeface
+                android:id="@+id/text_unidades"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:text="1 unidad"
+                android:textColor="@color/color_primary_dark"
+                android:textSize="13dp"
+                android:gravity="center_vertical"/>
+
+            <com.proconsi.leondecompras.views.ImageView
+                android:layout_width="match_parent"
+                android:layout_height="10dp"
+                android:src="@drawable/ic_triangle_down"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="@color/color_primary"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"/>
+
+        <LinearLayout
+            android:id="@+id/contenedor_comprar"
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/fondo_redondo_colorprimary"
+            android:orientation="vertical"
+            android:padding="3dp">
+
+            <com.proconsi.leondecompras.views.TextViewTypeface
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:background="@color/color_primary"
+                android:text="Comprar"
+                android:textSize="20dp"
+                android:textColor="@color/blanco_perfecto"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:layout_marginTop="-3dp"/>
+
+            <com.proconsi.leondecompras.views.TextViewTypeface
+                android:id="@+id/text_precio_calculado"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="26.5 €"
+                android:textColor="@color/blanco_perfecto"
+                android:textSize="13dp"
+                android:gravity="center"
+                android:layout_marginTop="-3dp"/>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

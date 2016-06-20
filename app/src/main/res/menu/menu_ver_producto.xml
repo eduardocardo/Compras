@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:id="@+id/search"
+        android:title="Buscar"
+        android:icon="@drawable/ic_lupa"
+        app:showAsAction="collapseActionView|ifRoom"
+        app:actionViewClass="android.support.v7.widget.SearchView" />
+
+    <item
+        android:id="@+id/action_abrir_menu_lateral"
+        android:icon="@drawable/ic_menu_lateral"
+        android:title="@string/abrir_menu_lateral"
+        app:showAsAction="always"/>
+</menu>

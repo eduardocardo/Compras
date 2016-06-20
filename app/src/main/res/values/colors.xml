@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="color_primary">#3aa4ac</color>
+    <color name="color_primary_dark">#2f7880</color>
+    <color name="negro">#000000</color>
+    <color name="gris_oscuro">#3a3a3a</color>
+    <color name="gris">#5d5d5d</color>
+    <color name="gris_claro">#a3a3a3</color>
+    <color name="gris_muy_claro">#cecece</color>
+    <color name="blanco_traslucido">#bfffffff</color>
+    <color name="blanco_perfecto">#ffffff</color>
+    <color name="amarillo">#c9ae4a</color>
+    <color name="rojo">#c90003</color>
+    <color name="naranja">#ff5e03</color>
+    <color name="azulclaro">#4DD0E1</color>
+    <color name="azulmuyclaro">#2196F3</color>
+    <color name="rojoclaro">#f44336</color>
+    <color name="verdeclaro">#4CAF50</color>
+
+
+
+    <color name="colorA">#d50000</color>
+    <color name="colorB">#AA00FF</color>
+    <color name="colorC">#2962FF</color>
+    <color name="colorD">#00C853</color>
+    <color name="colorE">#FF6D00</color>
+    <array name="colores">
+        <item>@color/colorA</item>
+        <item>@color/colorB</item>
+        <item>@color/colorC</item>
+        <item>@color/colorD</item>
+        <item>@color/colorE</item>
+    </array>
+
+</resources>

@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/blanco_perfecto">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <com.proconsi.leondecompras.views.TextViewTypeface
+            android:id="@+id/text_nombre_articulo"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:padding="10dp"
+            android:text="Nombre producto"
+            android:textColor="@color/color_primary_dark"
+            android:textSize="15dp"
+            android:gravity="center_vertical"/>
+
+        <com.proconsi.leondecompras.views.TextViewTypeface
+            android:id="@+id/text_num_producto"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:text="0123456789"
+            android:textColor="@color/gris_claro"
+            android:textSize="15dp"
+            android:gravity="center_vertical|right"/>
+    </LinearLayout>
+
+    <com.proconsi.leondecompras.views.TextViewTypeface
+        android:id="@+id/fecha_producto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="14/09/2015"
+        android:textSize="13dp"
+        android:textColor="@color/gris_claro"
+        android:layout_marginRight="5dp"
+        android:gravity="center_vertical"
+        android:layout_marginTop="-10dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:paddingBottom="10dp"/>
+
+    <com.proconsi.leondecompras.views.ViewLeerMas
+        android:id="@+id/view_leer_mas"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:background="@color/gris_muy_claro"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <com.proconsi.leondecompras.views.TextViewTypeface
+            android:id="@+id/text_mas_del_vendedor"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="@string/mas_de_este_vendedor"
+            android:textColor="@color/color_primary"
+            android:padding="10dp"/>
+
+        <com.proconsi.leondecompras.views.TextViewTypeface
+            android:id="@+id/text_terminos_de_venta"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="@string/terminos_de_venta"
+            android:textColor="@color/color_primary"
+            android:padding="10dp"
+            android:gravity="right"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:background="@color/gris_muy_claro"/>
+
+    <LinearLayout
+        android:id="@+id/contenedor_datos_vendedor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="-15dp">
+
+            <com.proconsi.leondecompras.views.TextViewTypeface
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="Vendedor"
+                android:textColor="@color/color_primary"
+                android:padding="10dp"/>
+
+            <com.proconsi.leondecompras.views.TextViewTypeface
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="EMBUTIDOS GUERRA Y PAZ"
+                android:textColor="@color/gris_oscuro"
+                android:padding="10dp"
+                android:gravity="right"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="-15dp">
+
+            <com.proconsi.leondecompras.views.TextViewTypeface
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="Tipo de vendedor"
+                android:textColor="@color/color_primary"
+                android:padding="10dp"/>
+
+            <com.proconsi.leondecompras.views.TextViewTypeface
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="PARTICULAR"
+                android:textColor="@color/gris_oscuro"
+                android:padding="10dp"
+                android:gravity="right"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="-15dp">
+
+            <com.proconsi.leondecompras.views.TextViewTypeface
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="Metodos de pago"
+                android:textColor="@color/color_primary"
+                android:padding="10dp"/>
+
+            <com.proconsi.leondecompras.views.TextViewTypeface
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="PAYPAL / TARJETA"
+                android:textColor="@color/gris_oscuro"
+                android:padding="10dp"
+                android:gravity="right"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <com.proconsi.leondecompras.views.TextViewTypeface
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="Tipo de envio"
+                android:textColor="@color/color_primary"
+                android:padding="10dp"/>
+
+            <com.proconsi.leondecompras.views.TextViewTypeface
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="CORREO / PAQUETERIA"
+                android:textColor="@color/gris_oscuro"
+                android:padding="10dp"
+                android:gravity="right"/>
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:background="@color/gris_muy_claro"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="10dp">
+
+        <com.proconsi.leondecompras.views.ButtonTypeface
+            android:id="@+id/button_seguir_vendedor"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="@string/seguir_vendedor"
+            android:textColor="@color/gris_claro"
+            android:layout_marginRight="5dp"
+            android:background="@drawable/fondo_redondo_blanco_grisclaro"/>
+
+        <com.proconsi.leondecompras.views.ButtonTypeface
+            android:id="@+id/button_seguir_producto"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="@string/seguir_producto"
+            android:textColor="@color/gris_claro"
+            android:layout_marginLeft="5dp"
+            android:background="@drawable/fondo_redondo_blanco_grisclaro"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:background="@color/gris_muy_claro"/>
+
+    <com.proconsi.leondecompras.views.ViewProductosComplementarios
+        android:id="@+id/view_productos_complementarios"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:background="@color/gris_muy_claro"/>
+
+    <com.proconsi.leondecompras.views.ViewProductosRelacionados
+        android:id="@+id/view_productos_relacionados"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+</LinearLayout>

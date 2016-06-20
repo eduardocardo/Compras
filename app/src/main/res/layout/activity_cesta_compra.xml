@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/drawer_layout"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/blanco_perfecto">
+
+    <ViewFlipper android:id="@+id/details"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+        <include
+            android:id="@+id/layout_confirmacion"
+            layout="@layout/layout_confirmacion_compra">
+        </include>
+        <include
+            android:id="@+id/layout_resumen"
+            layout="@layout/layout_resumen_compra">
+        </include>
+        <include
+            android:id="@+id/layout_paso3"
+            layout="@layout/layout_finalizar_compra"></include>
+    </ViewFlipper>
+
+
+
+    <com.proconsi.leondecompras.views.MenuLateral
+        android:id="@+id/menu_lateral"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="right"/>
+</android.support.v4.widget.DrawerLayout>

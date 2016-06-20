@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.proconsi.leondecompras.views.ImageView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@color/gris_oscuro"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:background="@color/gris">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:paddingRight="20dp"
+            android:paddingLeft="20dp"
+            android:paddingBottom="20dp">
+
+            <com.proconsi.leondecompras.views.TextViewTypeface
+                android:id="@+id/text_acceso_o_registro"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:text="@string/acceso_o_registro"
+                android:textColor="@color/blanco_perfecto"
+                android:gravity="center"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:orientation="horizontal">
+
+                <com.proconsi.leondecompras.views.ImageView
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:padding="5dp"
+                    android:src="@drawable/ic_message"
+                    android:background="@color/gris_muy_claro"/>
+
+                <com.proconsi.leondecompras.views.EditTextTypeface
+                    android:id="@+id/edit_login_user"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:hint="@string/usuario"
+                    android:textCursorDrawable="@null"
+                    android:textColor="@color/blanco_perfecto"
+                    android:singleLine="true"
+                    android:padding="5dp"
+                    android:background="@color/gris_claro"
+                    android:imeOptions="actionNext"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:orientation="horizontal"
+                android:layout_marginTop="10dp">
+
+                <com.proconsi.leondecompras.views.ImageView
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:padding="5dp"
+                    android:src="@drawable/ic_lock"
+                    android:background="@color/gris_muy_claro"/>
+
+                <com.proconsi.leondecompras.views.EditTextTypeface
+                    android:id="@+id/edit_login_pass"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:hint="@string/contrasenia"
+                    android:textCursorDrawable="@null"
+                    android:textColor="@color/blanco_perfecto"
+                    android:singleLine="true"
+                    android:padding="5dp"
+                    android:background="@color/gris_claro"
+                    android:inputType="textPassword"
+                    android:imeOptions="actionDone"/>
+            </LinearLayout>
+
+            <com.proconsi.leondecompras.views.ButtonTypeface
+                android:id="@+id/button_acceder"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@drawable/fondo_redondo_gris_grisclaro"
+                android:text="@string/acceder"
+                android:textColor="@color/blanco_perfecto"
+                android:layout_marginTop="10dp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"/>
+
+            <LinearLayout
+                android:id="@+id/contenedor_mantenerme_conectado"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="5dp">
+
+                <com.proconsi.leondecompras.views.TextViewTypeface
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:gravity="center_vertical"
+                    android:text="@string/mantenerme_conectado"
+                    android:textColor="@color/amarillo"/>
+
+                <CheckBox
+                    android:id="@+id/checkbox_mantenerme_conectado"
+                    android:layout_width="35dp"
+                    android:layout_height="35dp"
+                    android:button="@null"
+                    android:background="@drawable/checkbox_background"/>
+            </LinearLayout>
+
+            <com.proconsi.leondecompras.views.TextViewTypeface
+                android:id="@+id/text_olvidaste_user_o_pass"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:padding="5dp"
+                android:text="@string/olvidaste_user_o_pass"
+                android:textColor="@color/amarillo"/>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

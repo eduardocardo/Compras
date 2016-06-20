@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <com.proconsi.leondecompras.views.ImageView
+        android:id="@+id/imagen_articulo"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:paddingTop="3dp"
+        android:paddingBottom="3dp"
+        android:layout_marginLeft="3dp"
+        android:layout_marginRight="3dp"
+        android:src="@drawable/placeholder"
+        android:transitionName="@string/anim_imagen_producto"/>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:minHeight="150dp"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:paddingTop="3dp"
+        android:paddingBottom="3dp">
+
+        <com.proconsi.leondecompras.views.TextViewTypeface
+            android:id="@+id/text_nombre_articulo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:maxLines="1"
+            android:ellipsize="end"
+            android:text="Nombre producto"
+            android:textColor="@color/negro"
+            android:textSize="16dp"/>
+
+        <com.proconsi.leondecompras.views.TextViewTypeface
+            android:id="@+id/text_nombre_vendedor"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:singleLine="true"
+            android:ellipsize="end"
+            android:text="Vendedor: El serranillo"
+            android:textColor="@color/gris_claro"
+            android:textSize="10dp"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <com.proconsi.leondecompras.views.TextViewTypeface
+                android:id="@+id/text_precio_unidad"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="26.5 €"
+                android:textColor="@color/color_primary"
+                android:textSize="25dp"
+                android:layout_marginRight="10dp"/>
+
+            <com.proconsi.leondecompras.views.TextViewTypeface
+                android:id="@+id/texto_precio"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="10 €"
+                android:textSize="13dp"
+                android:gravity="bottom"
+                android:textColor="@color/rojo"
+                android:shadowColor="@color/blanco_perfecto"
+                android:shadowDx="0"
+                android:shadowDy="0"
+                android:shadowRadius="10"/>
+        </LinearLayout>
+
+        <com.proconsi.leondecompras.views.TextViewTypeface
+            android:id="@+id/text_precio_kilo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:singleLine="true"
+            android:ellipsize="end"
+            android:text="12.5 €/Kg"
+            android:textColor="@color/gris_claro"
+            android:textSize="13dp"/>
+
+        <com.proconsi.leondecompras.views.Valoracion
+            android:id="@+id/valoracion"
+            android:layout_width="100dp"
+            android:layout_height="20dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:layout_marginTop="5dp"
+            android:orientation="horizontal">
+
+            <com.proconsi.leondecompras.views.ImageView
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:src="@drawable/placeholder"/>
+
+            <com.proconsi.leondecompras.views.ImageView
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:src="@drawable/placeholder"/>
+
+            <com.proconsi.leondecompras.views.ImageView
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:src="@drawable/placeholder"/>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

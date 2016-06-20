@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:paddingRight="10dp"
+    android:paddingLeft="10dp"
+    android:background="@color/blanco_perfecto"
+    android:elevation="16dp">
+
+    <com.proconsi.leondecompras.views.Valoracion
+        android:id="@+id/valoracion"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"/>
+
+    <com.proconsi.leondecompras.views.ImageView
+        android:id="@+id/imagen_favorito"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/ic_no_favorito"
+        android:padding="5dp"/>
+
+    <com.proconsi.leondecompras.views.ImageView
+        android:id="@+id/imagen_compartir"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/ic_compartir"
+        android:padding="5dp"/>
+</LinearLayout>

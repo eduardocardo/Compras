@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="75dp"
+    android:orientation="horizontal"
+    android:padding="@dimen/activity_horizontal_margin">
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/iv_imagenListTarjeta"
+        android:src="@drawable/tarjeta"/>
+
+        <com.proconsi.leondecompras.views.TextViewTypeface
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv_numeroTarjeta"
+            android:textSize="25dp"
+            android:inputType="textPassword"
+            android:text="holaaarrrrr"
+            android:layout_gravity="center"
+            android:layout_marginLeft="30dp"
+           />
+        <com.proconsi.leondecompras.views.TextViewTypeface
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv_numeroNoCodifi"
+            android:text="rrrr"
+            android:layout_gravity="center"
+            android:textSize="25dp"
+            />
+
+
+
+
+</LinearLayout>

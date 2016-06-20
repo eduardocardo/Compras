@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="anim_imagen_producto">animImagenProducto</string>
+
+    <string name="app_name">León de Compras</string>
+    <string name="unidad">€</string>
+    <string name="unidad_medida">€/Kg</string>
+    <string name="aceptar">Aceptar</string>
+    <string name="cancelar">Cancelar</string>
+    <string name="acceso_o_registro">ACCESO o REGISTRO</string>
+    <string name="olvidaste_user_o_pass">¿Olvidates tu usuario o contraseña?</string>
+    <string name="acceder">Acceder</string>
+    <string name="mantenerme_conectado">Mantenerme conectado</string>
+    <string name="usuario">Usuario</string>
+    <string name="contrasenia">Contraseña</string>
+    <string name="abrir_menu_lateral">Abrir menú lateral</string>
+    <string name="articulos_complementarios">Productos complementarios</string>
+    <string name="productos_relacionados">Productos relacionados</string>
+    <string name="no_se_han_podido_cargar">No se han podido cargar los datos</string>
+    <string name="cargando_articulos_complementarios">Cargando productos complementarios</string>
+    <string name="cargando_productos_relacionados">Cargando productos relacionados</string>
+    <string name="seleccione_unidades">Seleccione unidades</string>
+    <string name="compartir">Compartir</string>
+    <string name="leer_mas">Leer más</string>
+    <string name="leer_menos">Leer menos</string>
+    <string name="mas_de_este_vendedor">Más de este vendedor</string>
+    <string name="terminos_de_venta">Términos de venta</string>
+    <string name="seguir_vendedor">Seguir vendedor</string>
+    <string name="seguir_producto">Seguir producto</string>
+    <string name="obteniendo_articulos">Obteniendo productos</string>
+    <string name="vendedor">Vendedor</string>
+    <string name="conectado_a_pci">Conectado a PCI</string>
+    <string name="categorias">Categorías</string>
+    <string name="Cargando">Cargando</string>
+    <string name="familias">Familias</string>
+    <string name="cargando">Cargando</string>
+    <string name="subfamilias">Subfamilias</string>
+    <string name="articulo">Articulos</string>
+    <string name="cesta_compra">Cesta de la compra</string>
+    <string name="cestaCompra">CESTA DE LA COMPRA</string>
+    <string name="confirmacionCompra">CONFIRMACIÓN DE COMPRA</string>
+    <string name="resumenCompra">RESUMEN DE COMPRA</string>
+    <string name="cancelarCompra">Cancelar compra</string>
+    <string name="recogerTienda">Recoger en tienda</string>
+    <string name="mostrarMapa">Mostrar en mapa</string>
+    <string name="seguirComprando">Seguir comprando</string>
+    <string name="vendedor2">Vendedor:</string>
+    <string name="contactar">Contactar</string>
+    <string name="unidades">Unidades</string>
+    <string name="detalles">Detalles</string>
+    <string name="pagar">A pagar</string>
+    <string name="botonComprar">COMPRAR | %1$s €</string>
+    <string name="uds">uds.</string>
+    <string name="metodoPago">MÉTODO DE PAGO</string>
+    <string name="solicitarFactura">Solicitar factura</string>
+    <string name="paypal">PAY PAL</string>
+    <string name="tarjeta">TARJETA DE CRÉDITO</string>
+    <string name="transferencia">TRANSFERENCIA BANCARIA</string>
+    <string name="politicaCookies">Política de Cookies</string>
+    <string name="codicionesVenta">Condiciones de venta</string>
+    <string name="confirmarCompra">Confirmar compra</string>
+    <string name="finalizarCompra">FINALIZAR COMPRA</string>
+    <string name="compraRealizada">COMPRA REALIZADA CON ÉXITO</string>
+    <string name="textoCorreo">Recibirás un correo electrónico</string>
+    <string name="textoConfirmacion">con la confirmacion de tu compra</string>
+    <string name="textoInstrucciones">y las instrucciones para su recogida.</string>
+    <string name="gracias">Muchas gracias</string>
+    <string name="continuarComprando">Continuar comprando</string>
+    <string name="seleccionaTarjeta">SELECCIONA TARJETA</string>
+    <string name="pagando">Pagando</string>
+
+</resources>

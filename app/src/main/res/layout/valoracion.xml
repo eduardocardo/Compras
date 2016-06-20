@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginRight="10dp"
+    android:layout_marginLeft="10dp">
+
+    <com.proconsi.leondecompras.views.ImageView
+        android:id="@+id/votacion_1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:src="@drawable/ic_valoracion_ko"/>
+
+    <com.proconsi.leondecompras.views.ImageView
+        android:id="@+id/votacion_2"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:src="@drawable/ic_valoracion_ko"/>
+
+    <com.proconsi.leondecompras.views.ImageView
+        android:id="@+id/votacion_3"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:src="@drawable/ic_valoracion_ko"/>
+
+    <com.proconsi.leondecompras.views.ImageView
+        android:id="@+id/votacion_4"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:src="@drawable/ic_valoracion_ko"/>
+
+    <com.proconsi.leondecompras.views.ImageView
+        android:id="@+id/votacion_5"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:src="@drawable/ic_valoracion_ko"/>
+</LinearLayout>
